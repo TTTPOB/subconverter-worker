@@ -1,0 +1,11 @@
+name = "subconverter-worker"
+type = "javascript"
+zone_id = "37164efee2ae10cd661d6aef585375cc"
+account_id = "63148ff8722de91a590c95e7470263f1"
+route = "subconverter-worker.tpob.xyz/*"
+workers_dev = true
+
+[build]
+command = "npm install && npm run build"
+[build.upload]
+format = "service-worker"
